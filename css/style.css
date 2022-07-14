@@ -1,0 +1,41 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+body {
+    background-color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#habitsList, #boxes {
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding:10px;
+    background-color:#3F51B5;
+    color:#fff;
+    font-weight:600;
+    border-radius:10px;
+    width:16%;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

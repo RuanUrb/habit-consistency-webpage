@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit consistency</title>
+    <link rel="icon" type="image/x-icon" href="images/strength.png">
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body onload="refresh()">
+        <h1>Habits I'd like to be consistent with:</h1>
+        <div id='habitsList'></div>
+    <div id="boxes">
+        <input name="habitName" type="text" id="habitName" class="input">
+        <div class="buttonDiv">
+            <button onclick="addHabit();" name="add" id="addButton" type="button"> Add </button>
+            <button onclick="work()" > Clear </button>
+            <button onclick="done()"> Done </button>
+            <button onclick="notDone()"> Not Done </button>
+        </div>
+    </div>
+</body>
+</html>
